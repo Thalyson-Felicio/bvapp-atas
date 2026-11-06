@@ -1,0 +1,10 @@
+[project]
+name = "bvapp-atas"
+version = "0.1.0"
+description = "Mini projeto de organização dos cenários de teste do RF-25296 (Arquivamento/Exclusão de Atas) do BVapp"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.2,<6.0",
+    "selenium>=4",
+]
